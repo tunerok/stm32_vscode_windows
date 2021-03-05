@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 
 # This program built for i386-pc-mingw32
 
-# ���� ������ Make, ���������� Fri Mar 05 16:54:01 2021
+# ���� ������ Make, ���������� Fri Mar 05 17:03:49 2021
 
 # ����������
 
@@ -78,9 +78,9 @@ SystemDrive = C:
 # ���������� � �����
 CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
 # ���������� � �����
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-545c1562-9d0b-42f0-99ad-c82aa35939ff-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5aae82fc-0081-4d90-9a1a-289314b51dfc-sock
 # ���������� � �����
-VSCODE_CWD = C:\Users\aashirov\Desktop\arm\stm32_f4\stm32_vscode
+VSCODE_CWD = C:\Users\aashirov\AppData\Local\Programs\Microsoft VS Code
 # ���������� � �����
 NO_PROXY = 127.0.0.1
 # ���������� � �����
@@ -106,7 +106,7 @@ ProgramW6432 = C:\Program Files
 # ��������������
 %F = $(notdir $%)
 # ���������� � �����
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10340_UQJSQKFVZFSTMZDP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2032_YEHIHUBGMFBBQMEP
 # Make-���� (from `makefile', line 75)
 ASM_SOURCES = startup_stm32f407xx.s
 # Make-���� (from `makefile', line 25)
@@ -240,7 +240,7 @@ OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(
 # ���������� � �����
 PROCESSOR_LEVEL = 6
 # ���������� � �����
-VSCODE_PID = 10340
+VSCODE_PID = 2032
 # ���������� � �����
 USERDOMAIN_ROAMINGPROFILE = FITOS
 # variable set hash-table stats:
@@ -255,7 +255,7 @@ USERDOMAIN_ROAMINGPROFILE = FITOS
 # USB_HOST/Target (���� c:/Users/aashirov/Desktop/arm/stm32_f4/stm32_vscode/USB_HOST/Target, ����� ����������� 1614952431): 6 ������,��� ������������ �����.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1506781608): 31 ������,��� ������������ �����.
 # C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1513481948): 176 ������,��� ������������ �����.
-# . (���� c:/Users/aashirov/Desktop/arm/stm32_f4/stm32_vscode, ����� ����������� 1614952431): 19 ������,��� ������������ �����.
+# . (���� c:/Users/aashirov/Desktop/arm/stm32_f4/stm32_vscode, ����� ����������� 1614952520): 20 ������,��� ������������ �����.
 # Core/Src (���� c:/Users/aashirov/Desktop/arm/stm32_f4/stm32_vscode/Core/Src, ����� ����������� 1614952427): 6 ������,��� ������������ �����.
 # C:\Users\aashirov\AppData\Local\Microsoft\WindowsApps (���� C:/Users/aashirov/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1506692793): 2 ������,��� ������������ �����.
 # C:\Program Files\TortoiseGit\bin (���� C:/Program Files/TortoiseGit/bin, ����� ����������� 1614598820): 96 ������,��� ������������ �����.
@@ -275,7 +275,7 @@ USERDOMAIN_ROAMINGPROFILE = FITOS
 # Drivers/STM32F4xx_HAL_Driver/Src (���� c:/Users/aashirov/Desktop/arm/stm32_f4/stm32_vscode/Drivers/STM32F4xx_HAL_Driver/Src, ����� ����������� 1614952431): 96 ������,��� ������������ �����.
 # C:\Program Files (x86)\GnuWin32\bin (���� C:/Program Files (x86)/GnuWin32/bin, ����� ����������� 1614602804): 5 ������,��� ������������ �����.
 
-# 3753 ������,��� impossibilities in 22 directories.
+# 3754 ������,��� impossibilities in 22 directories.
 
 # Implicit Rules
 
@@ -893,8 +893,8 @@ build:
 	mkdir $@		
 	
 
-build/stm32f4xx_hal_flash_ramfunc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver 
-/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h | build
+build/stm32f4xx_hal_flash_ramfunc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_D 
+river/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h | build
 #  ������������ ����� ������� ������
 #  ������ �������� ��� ������������ �������: `stm32f4xx_hal_flash_ramfunc'
 #  ����� ���������� ��������� 2021-03-05 16:43:02
@@ -1812,9 +1812,9 @@ build/stm32f4xx_hal_rcc.d:
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  ������������ ����� ������� ������
 #  ����� ���������� ��������� 2021-03-05 16:43:02
-#  ���� ��� ��������.
-#  � 
-������ ���������.
+#  ���� ��� ��������. 
+
+#  ������� ���������.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -1833,6 +1833,6 @@ vpath %.c Core/Src;Drivers/STM32F4xx_HAL_Driver/Src;Middlewares/ST/STM32_USB_Hos
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 3217 / max = 3217 / min = 3217 / avg = 3217
 
-# ������ ���� ������ Make ��������� Fri Mar 05 16:54:02 2021
+# ������ ���� ������ Make ��������� Fri Mar 05 17:03:49 2021
 
  
