@@ -71,6 +71,7 @@ Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c \
 Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c \
 Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c
 
+
 # ASM sources
 ASM_SOURCES =  \
 startup_stm32f407xx.s

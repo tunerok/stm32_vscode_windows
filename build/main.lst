@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
   29:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
   30:Core/Src/main.c **** /* USER CODE BEGIN PTD */
   31:Core/Src/main.c **** 
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 2
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 2
 
 
   32:Core/Src/main.c **** /* USER CODE END PTD */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
   86:Core/Src/main.c ****   /* USER CODE BEGIN Init */
   87:Core/Src/main.c **** 
   88:Core/Src/main.c ****   /* USER CODE END Init */
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 3
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 3
 
 
   89:Core/Src/main.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  143:Core/Src/main.c ****   RCC_OscInitStruct.PLL.PLLN = 336;
  144:Core/Src/main.c ****   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
  145:Core/Src/main.c ****   RCC_OscInitStruct.PLL.PLLQ = 7;
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 4
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 4
 
 
  146:Core/Src/main.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  200:Core/Src/main.c ****   /* USER CODE BEGIN I2C1_Init 2 */
  201:Core/Src/main.c **** 
  202:Core/Src/main.c ****   /* USER CODE END I2C1_Init 2 */
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 5
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 5
 
 
  203:Core/Src/main.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  257:Core/Src/main.c ****   hspi1.Init.Mode = SPI_MODE_MASTER;
  258:Core/Src/main.c ****   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
  259:Core/Src/main.c ****   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 6
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 6
 
 
  260:Core/Src/main.c ****   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  287:Core/Src/main.c ****   /* GPIO Ports Clock Enable */
  288:Core/Src/main.c ****   __HAL_RCC_GPIOE_CLK_ENABLE();
   55              		.loc 1 288 3 is_stmt 1 view .LVU3
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 7
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 7
 
 
   56              	.LBB4:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  107 0050 0494     		str	r4, [sp, #16]
  108              		.loc 1 291 3 view .LVU23
  109 0052 1A6B     		ldr	r2, [r3, #48]
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 8
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 8
 
 
  110 0054 42F00102 		orr	r2, r2, #1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  297:Core/Src/main.c **** 
  298:Core/Src/main.c ****   /*Configure GPIO pin Output Level */
  299:Core/Src/main.c ****   HAL_GPIO_WritePin(OTG_FS_PowerSwitchOn_GPIO_Port, OTG_FS_PowerSwitchOn_Pin, GPIO_PIN_SET);
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 9
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 9
 
 
  159              		.loc 1 299 3 view .LVU40
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  315:Core/Src/main.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  198              		.loc 1 315 3 is_stmt 1 view .LVU55
  199              		.loc 1 315 24 is_stmt 0 view .LVU56
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 10
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 10
 
 
  200 00ce 0994     		str	r4, [sp, #36]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  239              		.loc 1 330 24 is_stmt 0 view .LVU76
  240 00fe 0994     		str	r4, [sp, #36]
  331:Core/Src/main.c ****   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 11
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 11
 
 
  241              		.loc 1 331 3 is_stmt 1 view .LVU77
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  281 0130 FFF7FEFF 		bl	HAL_GPIO_Init
  282              	.LVL8:
  346:Core/Src/main.c **** 
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 12
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 12
 
 
  347:Core/Src/main.c ****   /*Configure GPIO pins : LD4_Pin LD3_Pin LD5_Pin LD6_Pin
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  319              		.loc 1 364 3 is_stmt 1 view .LVU114
  320              		.loc 1 364 24 is_stmt 0 view .LVU115
  321 015a CDF82090 		str	r9, [sp, #32]
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 13
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 13
 
 
  365:Core/Src/main.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  363              		@ frame_needed = 0, uses_anonymous_args = 0
  364              		@ link register save eliminated.
  380:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 14
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 14
 
 
  381:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
   49:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __STATIC_FORCEINLINE                 
   50:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __STATIC_FORCEINLINE                   __attribute__((always_inline)) static inline
   51:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif                                           
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 15
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 15
 
 
   52:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __NO_RETURN
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  106:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT32_READ { uint32_t v; };
  107:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
  108:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_READ(addr)          (((const struct T_UINT32_READ *)(const void *)(add
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 16
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 16
 
 
  109:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  385              		.cfi_endproc
  386              	.LFE136:
  388              		.section	.text.MX_I2C1_Init,"ax",%progbits
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 17
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 17
 
 
  389              		.align	1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  193:Core/Src/main.c ****   hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
  430              		.loc 1 193 26 is_stmt 0 view .LVU141
  431 001a 8361     		str	r3, [r0, #24]
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 18
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 18
 
 
  194:Core/Src/main.c ****   hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  477              		.loc 1 221 3 view .LVU152
  221:Core/Src/main.c ****   hi2s3.Init.Mode = I2S_MODE_MASTER_TX;
  478              		.loc 1 221 18 is_stmt 0 view .LVU153
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 19
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 19
 
 
  479 0002 0A48     		ldr	r0, .L17
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  514 0024 00B9     		cbnz	r0, .L16
  238:Core/Src/main.c **** 
  515              		.loc 1 238 1 view .LVU173
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 20
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 20
 
 
  516 0026 08BD     		pop	{r3, pc}
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  562              		.loc 1 259 23 is_stmt 0 view .LVU183
  563 0012 C360     		str	r3, [r0, #12]
  260:Core/Src/main.c ****   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 21
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 21
 
 
  564              		.loc 1 260 3 is_stmt 1 view .LVU184
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  270:Core/Src/main.c ****   }
  599              		.loc 1 270 5 is_stmt 1 view .LVU204
  600 0032 FFF7FEFF 		bl	Error_Handler
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 22
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 22
 
 
  601              	.LVL17:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  650 0020 0593     		str	r3, [sp, #20]
  651 0022 0693     		str	r3, [sp, #24]
  133:Core/Src/main.c ****   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 23
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 23
 
 
  652              		.loc 1 133 3 is_stmt 1 view .LVU212
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  691              		.loc 1 139 30 is_stmt 0 view .LVU227
  692 0054 4FF48033 		mov	r3, #65536
  693 0058 0D93     		str	r3, [sp, #52]
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 24
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 24
 
 
  140:Core/Src/main.c ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  729              		.loc 1 154 34 is_stmt 0 view .LVU246
  730 0080 0223     		movs	r3, #2
  731 0082 0893     		str	r3, [sp, #32]
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 25
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 25
 
 
  155:Core/Src/main.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  166:Core/Src/main.c ****   {
  769              		.loc 1 166 6 view .LVU264
  770 00b0 30B9     		cbnz	r0, .L32
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 26
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 26
 
 
  170:Core/Src/main.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  821 0002 FFF7FEFF 		bl	HAL_Init
  822              	.LVL25:
   91:Core/Src/main.c **** 
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 27
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 27
 
 
  823              		.loc 1 91 3 view .LVU271
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  868              		.align	2
  869              		.set	.LANCHOR0,. + 0
  872              	hi2c1:
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 28
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 28
 
 
  873 0000 00000000 		.space	84
@@ -1660,37 +1660,37 @@ ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 1
  901              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
  902              		.file 15 "USB_HOST/App/usb_host.h"
  903              		.file 16 "<built-in>"
-ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s 			page 29
+ARM GAS  C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s 			page 29
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:18     .text.MX_GPIO_Init:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:339    .text.MX_GPIO_Init:00000170 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:350    .text.Error_Handler:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:357    .text.Error_Handler:00000000 Error_Handler
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:389    .text.MX_I2C1_Init:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:395    .text.MX_I2C1_Init:00000000 MX_I2C1_Init
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:453    .text.MX_I2C1_Init:0000002c $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:460    .text.MX_I2S3_Init:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:466    .text.MX_I2S3_Init:00000000 MX_I2S3_Init
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:524    .text.MX_I2S3_Init:0000002c $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:531    .text.MX_SPI1_Init:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:537    .text.MX_SPI1_Init:00000000 MX_SPI1_Init
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:605    .text.MX_SPI1_Init:00000038 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:611    .text.SystemClock_Config:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:618    .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:795    .text.SystemClock_Config:000000c4 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:801    .text.main:00000000 $t
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:808    .text.main:00000000 main
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:860    .text.main:00000038 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:886    .bss.hspi1:00000000 hspi1
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:879    .bss.hi2s3:00000000 hi2s3
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:872    .bss.hi2c1:00000000 hi2c1
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:868    .bss.hi2c1:00000000 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:875    .bss.hi2s3:00000000 $d
-C:\Users\aashirov\AppData\Local\Temp\ccj68YBB.s:882    .bss.hspi1:00000000 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:18     .text.MX_GPIO_Init:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:339    .text.MX_GPIO_Init:00000170 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:350    .text.Error_Handler:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:357    .text.Error_Handler:00000000 Error_Handler
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:389    .text.MX_I2C1_Init:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:395    .text.MX_I2C1_Init:00000000 MX_I2C1_Init
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:453    .text.MX_I2C1_Init:0000002c $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:460    .text.MX_I2S3_Init:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:466    .text.MX_I2S3_Init:00000000 MX_I2S3_Init
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:524    .text.MX_I2S3_Init:0000002c $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:531    .text.MX_SPI1_Init:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:537    .text.MX_SPI1_Init:00000000 MX_SPI1_Init
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:605    .text.MX_SPI1_Init:00000038 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:611    .text.SystemClock_Config:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:618    .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:795    .text.SystemClock_Config:000000c4 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:801    .text.main:00000000 $t
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:808    .text.main:00000000 main
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:860    .text.main:00000038 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:886    .bss.hspi1:00000000 hspi1
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:879    .bss.hi2s3:00000000 hi2s3
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:872    .bss.hi2c1:00000000 hi2c1
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:868    .bss.hi2c1:00000000 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:875    .bss.hi2s3:00000000 $d
+C:\Users\aashirov\AppData\Local\Temp\ccnLM2Sx.s:882    .bss.hspi1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
